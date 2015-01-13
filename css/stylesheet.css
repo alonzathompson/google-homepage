@@ -1,51 +1,70 @@
-.container {
-	width: 1079.200px;
-	height: 507.200px;
+body {
+  overflow:hidden;
 }
 
-#nav {
-	height: 40px;
-	margin-top: 20px;
-	font-family: arial, sans-serif;
+a {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #404040;
+ }
+ 
+a:hover {
+	text-decoration: underline;
 }
 
+.nav {
+  float: right;
+  margin: 15px 18px 0 0;
+  padding-right: 15px;
+  padding-left: 30px;
+}
 
-.nav{
-	margin: 0px;
-	padding: 15px;
-	float: right;
+li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+  padding-right: 15px;
+}
+
+ul li:nth-child(4),
+ul li:nth-child(5),
+ul li:nth-child(7) {
+  min-width: 30px;
+  min-height: 30px;   
+}
+
+.apps {
+	background-image: url( https://raw.githubusercontent.com/alonzothompson/google-homepage/master/images/app-icon.png);
+	background-size: 29px 29px;
+	background-position: -60px -841px;
+	position: absolute;
+	width: 30px;
 	height: 30px;
+	margin-left: 5px;
 	
 }
 
-.li-a {
-	display: inline;
-	padding: 15px;
-	list-style-type: none;
-	
-}
-
-.li-a a {
-	float: right;
-	dispaly: block;
-	
-}
-
-.nav 2 {
-	margin: 0px;
-	padding: 0px;
-	float: right;
+.bell {
+	background-image: url(https://raw.githubusercontent.com/alonzothompson/google-homepage/master/images/alert%20icon.png);
+	background-position: -69px -69px;
+	background-size: 32px 32px;
+	position: absolute;
+	width: 30px;
 	height: 30px;
+	overflow: hidden;
+	margin-top: 5px;
 }
 
-.li-b {
-	display: inline;
-	padding: 15px;
-	list-style-type: none;
-}
-
-.li-b a {
-	float: right;
+.share {
+	background-image: url(https://raw.githubusercontent.com/alonzothompson/google-homepage/master/images/plus-icon.png);
+	background-position: -67px -5px;
+	background-size: 32px 32px;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	margin-top: -10px;
+	margin-left: -5px;
 }
 
 
